@@ -46,7 +46,7 @@ One common feature in a front end client is to display a list of resources to
 a user, and then allow the user to view or edit those resource.
 
 Typically those resources will be available through some API.  In our code
-challenge, you will implement an API client that retrieves a list of `venues`
+challenge, you will implement a user facing app that retrieves a list of `venues`
 from an API and displays them to the user.  When the user clicks on one of the
 venues, you will display a detail view of the venue.
 
