@@ -19,7 +19,7 @@ $ ember serve
 ## API
 
 The API client is implemented as a service. It provides a single method,
-`getVenues()` which returns a Promise that resolves to a list of venue objects.
+`getVenues()`, which returns a Promise that resolves to a list of venue objects.
 
 ```javascript
 

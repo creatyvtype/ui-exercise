@@ -12,7 +12,7 @@ use that for layout and style or replace it with another framework, if you like.
 ## The API client
 
 The API client is already included in the global namespace with the variable
-`API`.  It provides a single method, `getVenues()` which returns a Promise that
+`API`.  It provides a single method, `getVenues()`, which returns a Promise that
 resolves to a list of venue objects.
 
 ```javascript

@@ -14,7 +14,7 @@ $ yarnpkg start
 ## API
 
 The API client is implemented as a service. It provides a single method,
-`getVenues()` which returns a Promise that resolves to a list of venue objects.
+`getVenues()`, which returns a Promise that resolves to a list of venue objects.
 
 ```javascript
 
@@ -34,5 +34,3 @@ Each venue object takes the form:
   capacity: "[\d+]"
 }
 ```
- It provides a single method,
-`getVenues()` which returns a Promise that resolves to a list of venue objects.
