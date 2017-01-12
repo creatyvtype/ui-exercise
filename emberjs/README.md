@@ -6,6 +6,13 @@ application template.
 You are free to implement everything is this template, or else create one or
 more routes.
 
+## Quickstart
+
+```
+$ npm install
+$ ember serve
+```
+
 ## API
 
 The API client is implemented as a service.
