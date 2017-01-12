@@ -33,8 +33,8 @@ using jQuery.
 The available pre-configured apps are:
 
 * [React](reactjs)
-* [Angular](angularjs)
 * [Ember](emberjs)
+* [Angular](angularjs)
 * [jQuery](jquery)
 
 Each pre-configured app contains it's own README with specific details about
