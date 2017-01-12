@@ -33,10 +33,13 @@ using jQuery.
 
 The available pre-configured apps are:
 
-* [React](react/README.md)
-* [Angular](angular/README.md)
-* [Ember](ember/README.md)
+* [React](react)
+* [Angular](angular)
+* [Ember](ember)
 * [jQuery](jquery)
+
+Each pre-configured app contains it's own README with specific details about
+that particular framework.
 
 ## The exercise
 

@@ -1,5 +1,7 @@
-API = {
-  getVenues: function() {
+import Ember from 'ember';
+
+export default Ember.Service.extend({
+  getVenues() {
     return new Promise(function (resolve) {
       resolve([{
         name:     "The Big Stadium",
@@ -16,4 +18,4 @@ API = {
       }])
     })
   }
-}
+});
