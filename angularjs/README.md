@@ -23,3 +23,12 @@ constructor(apiService: ApiService) {
   apiService.getVenues().then(venues => console.log(venues));
 }
 ```
+
+Each venue object takes the form:
+```javascript
+{
+  name:     "Venue name",
+  type:     "(stadium|theater|club)",
+  capacity: "[\d+]"
+}
+```

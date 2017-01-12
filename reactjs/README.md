@@ -24,3 +24,12 @@ const api = new Api();
 
 api.getVenues().then(venues => console.log(venues));
 ```
+
+Each venue object takes the form:
+```javascript
+{
+  name:     "Venue name",
+  type:     "(stadium|theater|club)",
+  capacity: "[\d+]"
+}
+```

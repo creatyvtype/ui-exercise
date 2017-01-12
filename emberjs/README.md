@@ -31,3 +31,12 @@ export default Ember.Component.extend({
   }
 });
 ```
+
+Each venue object takes the form:
+```javascript
+{
+  name:     "Venue name",
+  type:     "(stadium|theater|club)",
+  capacity: "[\d+]"
+}
+```
