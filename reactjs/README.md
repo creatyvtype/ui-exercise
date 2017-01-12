@@ -1,6 +1,9 @@
 This is a standard React installation using the [create-react-app](https://github.com/facebookincubator/create-react-app)
 script.
 
+We have pre-configured this code base to use Bootstrap, so feel free to either
+use that for layout and style or replace it with another framework, if you like.
+
 ## Quickstart
 
 ```
