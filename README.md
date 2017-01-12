@@ -36,7 +36,7 @@ The available pre-configured apps are:
 * [React](react/README.md)
 * [Angular](angular/README.md)
 * [Ember](ember/README.md)
-* [jQuery](jquery/README.md)
+* [jQuery](jquery)
 
 ## The exercise
 
