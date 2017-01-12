@@ -1,7 +1,6 @@
 # ui-exercise
 
-This is the 10e UI exercise for front end candidates.  It is meant to test your
-coding skills for front end development.
+This is the 10e UI exercise for front end candidates.
 
 The exercise has been created to provide you with a bootstrapped installation
 of many popular JS frameworks.  Each installation has been prepped to give you
@@ -69,6 +68,6 @@ engineering.
 
 Therefore, it is important that we see some actual code.  We don't necessarily
 expect you to complete all of the features mentioned above, however, if you do
-and you have time left, that is the appropriate time to go back through your
+before your time is up, that is the appropriate time to go back through your
 code and perform clean up tasks, or add tests, or do whatever you think will
 show us your skill set in the most effective way.
