@@ -3,6 +3,7 @@ import Api from './services/api';
 import VenueListItem from './venue_list_item'
 import _ from 'lodash'
 
+
 class VenueList extends Component {
 	constructor(props) {
     	super(props);
@@ -53,10 +54,10 @@ class VenueList extends Component {
 			<div className="venues">
 				<div className="filters">
 					Quick Filters:
-					<div onClick={this.showAll.bind(this)}>All</div>
+					<div className="filter-link" onClick={this.showAll.bind(this)}>All</div>
 					{ filters.map((filter, index) => {
 						return (
-							<div key={index} onClick={this.filterByType.bind(this, filter)}>
+							<div className="filter-link" key={index} onClick={this.filterByType.bind(this, filter)}>
 								{filter}
 							</div>
 						)}

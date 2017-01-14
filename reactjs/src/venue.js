@@ -48,9 +48,9 @@ class Venue extends Component {
 			<div className="venue">
 				<Link to="/venues">Back to Venues</Link>
 				<div>
-					{venue.name}<br/>
-					{venue.capacity}<br/>
-					{venue.type}
+					Name: {venue.name}<br/>
+					Capacity: {venue.capacity}<br/>
+					Type: {venue.type}
 				</div>
 			</div>
 		)
