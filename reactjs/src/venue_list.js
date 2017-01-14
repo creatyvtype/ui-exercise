@@ -4,7 +4,7 @@ import VenueListItem from './venue_list_item'
 
 class VenueList extends Component {
 	constructor(props) {
-    super(props);
+    	super(props);
     	this.state = { 
     		venues: []
     	};
@@ -16,17 +16,15 @@ class VenueList extends Component {
 
 	getVenues() {
 		const api = new Api();
-		const component = this
 		api.getVenues()
 			.then(venues => {
-				component.setState({
+				this.setState({
 					venues: venues
 				})
 			});
 	}
 
 	render() {
-		console.log(this.state)
 		return (
 			<div className="list">
 				{ this.state.venues.map((venue, index) => {

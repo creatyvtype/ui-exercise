@@ -11,7 +11,7 @@ export default class Routes extends Component {
                 <Route path="/" component={App}>
                 	<IndexRedirect to="venues" />
                     <Route path="venues" component={VenueList} />
-                	<Route path="venue/:venue" component={Venue} />
+                	<Route path="venue/:venueName" component={Venue} />
                 </Route>
             </Router>
         )
