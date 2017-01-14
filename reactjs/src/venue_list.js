@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import Api from './services/api';
-// import VenueListItem from './venue_list_item'
+import VenueListItem from './venue_list_item'
 
-class List extends Component {
+class VenueList extends Component {
 	constructor(props) {
     super(props);
     	this.state = { 
@@ -31,7 +31,7 @@ class List extends Component {
 			<div className="list">
 				{ this.state.venues.map((venue, index) => {
 					return (
-						<p key={index}>{venue.name}</p>
+						<VenueListItem key={index} venue={venue} />
 					)}
 				)}
 			</div>
@@ -39,4 +39,4 @@ class List extends Component {
 	}
 }
 
-export default List;
+export default VenueList;
